@@ -13,7 +13,7 @@ struct View1: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {
-            Color.green
+            Color.green.opacity(0.25)
         }
     }
 }

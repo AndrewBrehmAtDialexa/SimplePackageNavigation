@@ -4,12 +4,8 @@ import SwiftUI
 public struct CommonView1: View {
     @ObservedObject var viewModel: CommonView1ViewModel
 
-    public init(viewModel: CommonView1ViewModel? = nil) {
-        if let viewModel = viewModel {
-            self.viewModel = viewModel
-        } else {
-            self.viewModel = CommonView1ViewModel()
-        }
+    public init(viewModel: CommonView1ViewModel = .init()) {
+        self.viewModel = viewModel
     }
 
     public var body: some View {
@@ -22,7 +18,7 @@ public struct CommonView1: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {
-            Color.yellow
+            viewModel.isDefault ? Color.yellow.opacity(0.25) : Color.teal.opacity(0.25)
         }
     }
 }
