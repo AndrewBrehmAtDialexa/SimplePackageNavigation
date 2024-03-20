@@ -10,6 +10,14 @@ struct View1: View {
             Button("GO TO View2") {
                 viewModel.goToView2ButtonTapped()
             }
+            Button("Show Navigation Alert") {
+                viewModel.showAlert()
+            }
+            .padding(.top, 20)
+            Button("Show Tapping Total Alert") {
+                viewModel.showTappingAlert()
+            }
+            .padding(.top, 20)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background {

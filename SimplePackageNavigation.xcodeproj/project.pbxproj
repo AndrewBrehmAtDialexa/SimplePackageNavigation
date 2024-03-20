@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5590768E2BAA28BD007FBA0B /* SimplePackageNavigationAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590768D2BAA28BD007FBA0B /* SimplePackageNavigationAppViewModel.swift */; };
+		559076902BAA2A54007FBA0B /* AlertManager in Frameworks */ = {isa = PBXBuildFile; productRef = 5590768F2BAA2A54007FBA0B /* AlertManager */; };
 		55A72CC12B97653400DA628A /* TabMicro in Frameworks */ = {isa = PBXBuildFile; productRef = 55A72CC02B97653400DA628A /* TabMicro */; };
 		55BFD0582B975FB9003CADC0 /* SimplePackageNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BFD0572B975FB9003CADC0 /* SimplePackageNavigationApp.swift */; };
 		55BFD05C2B975FBA003CADC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BFD05B2B975FBA003CADC0 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5590768C2BAA27E9007FBA0B /* AlertManager */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AlertManager; path = "../../../../POC-repos/MicroApp1/AlertManager"; sourceTree = "<group>"; };
+		5590768D2BAA28BD007FBA0B /* SimplePackageNavigationAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePackageNavigationAppViewModel.swift; sourceTree = "<group>"; };
 		55A72CBE2B97644600DA628A /* TabMicro */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TabMicro; sourceTree = "<group>"; };
 		55A72CC22B97662100DA628A /* MicroApp1 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MicroApp1; sourceTree = "<group>"; };
 		55A72CC32B97694300DA628A /* Navigation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Navigation; sourceTree = "<group>"; };
@@ -57,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55A72CC12B97653400DA628A /* TabMicro in Frameworks */,
+				559076902BAA2A54007FBA0B /* AlertManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,7 @@
 		55A72CBC2B9763F400DA628A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				5590768C2BAA27E9007FBA0B /* AlertManager */,
 				55A72CC42B976ECF00DA628A /* CommonUI */,
 				55A72CC32B97694300DA628A /* Navigation */,
 			);
@@ -130,6 +136,7 @@
 				55A72CBD2B97640800DA628A /* Modules */,
 				55A72CBC2B9763F400DA628A /* Utilities */,
 				55BFD0572B975FB9003CADC0 /* SimplePackageNavigationApp.swift */,
+				5590768D2BAA28BD007FBA0B /* SimplePackageNavigationAppViewModel.swift */,
 				55BFD05B2B975FBA003CADC0 /* Assets.xcassets */,
 				55BFD05D2B975FBA003CADC0 /* SimplePackageNavigation.entitlements */,
 				55BFD05E2B975FBA003CADC0 /* Preview Content */,
@@ -180,6 +187,7 @@
 			name = SimplePackageNavigation;
 			packageProductDependencies = (
 				55A72CC02B97653400DA628A /* TabMicro */,
+				5590768F2BAA2A54007FBA0B /* AlertManager */,
 			);
 			productName = SimplePackageNavigation;
 			productReference = 55BFD0542B975FB9003CADC0 /* SimplePackageNavigation.app */;
@@ -296,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55BFD0582B975FB9003CADC0 /* SimplePackageNavigationApp.swift in Sources */,
+				5590768E2BAA28BD007FBA0B /* SimplePackageNavigationAppViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +655,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5590768F2BAA2A54007FBA0B /* AlertManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AlertManager;
+		};
 		55A72CC02B97653400DA628A /* TabMicro */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TabMicro;
